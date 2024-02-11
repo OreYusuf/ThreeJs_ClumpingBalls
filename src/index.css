@@ -1,0 +1,119 @@
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+  box-sizing: border-box;
+}
+
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: "Inter var", sans-serif;
+  cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMwLjUgMTZDMzAuNSAyNC4wMDgxIDI0LjAwODEgMzAuNSAxNiAzMC41QzcuOTkxODcgMzAuNSAxLjUgMjQuMDA4MSAxLjUgMTZDMS41IDcuOTkxODcgNy45OTE4NyAxLjUgMTYgMS41QzI0LjAwODEgMS41IDMwLjUgNy45OTE4NyAzMC41IDE2WiIgc3Ryb2tlPSJibGFjayIvPgo8cGF0aCBkPSJNNiA5QzcuNjU2ODUgOSA5IDcuNjU2ODUgOSA2QzkgNC4zNDMxNSA3LjY1Njg1IDMgNiAzQzQuMzQzMTUgMyAzIDQuMzQzMTUgMyA2QzMgNy42NTY4NSA0LjM0MzE1IDkgNiA5WiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg=="),
+    auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding-right: 10px;
+  cursor: pointer;
+  pointer-events: all;
+  color: black;
+  text-decoration: none; 
+}
+
+
+#top_bar{
+  display: none;
+  width: 100%;
+  height: 5%;
+  /* background: #380140be; */
+  background: #09203f;
+   /* background: #537895; */
+  align-items: center;
+}
+
+.txt_animation {
+  width: 100%;
+  text-align: center;
+  /* color: #6AA69B; */
+  color: #BF2C53;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+
+#main_canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+#myName{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+h1 {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+  font-size: 5em;
+  color: #5378955e;
+  text-align: center;
+}
+
+
+.linksContainer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  z-index: 1000;
+}
+
+.links>svg{
+  object-fit: contain;
+  width: 40px;
+  margin-left: 15px;
+  fill: #5378955e;
+}
+
+.links_logo:hover{
+  transition: 1s;
+  fill: #BF2C53;
+}
+
+
+
