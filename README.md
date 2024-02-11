@@ -5,52 +5,45 @@
 
 <!-- LINK -->
 
-<a  href="https://www.oreyusuf.co.uk/project/clumping-balls">
+  <a  href="https://www.oreyusuf.co.uk/project/clumping-balls">
 
-<img  src="./public/images/logo.png"  alt="Logo"  width="100"  height="100"></img>
+  <img  src="./public/images/logo.png"  alt="Logo"  width="100"  height="100"></img>
 
-</a>
+  </a>
 
-<h1  align="center"> Clumping Balls </h1>
+  <h1  align="center"> Clumping Balls </h1>
 
-<h3> A Three.js Demo of Interactive Physics and Convergence </h3>
+  <h3> A Three.js Demo of Interactive Physics and Convergence </h3>
 
-<br />
+  <br />
 
-[<kbd> <br> View Demo → <br> </kbd>][Codesandbox-url]
+  [<kbd> <br> View Demo → <br> </kbd>][Codesandbox-url]
 
-<br />
+  <br />
 
-<p  align="center"  style="color:#8080802e">
+  <p  align="center"  style="color:#8080802e">
 
-Why did the balls love this clumping demo?
+  Why did the balls love this clumping demo?
 
-<br />
+  </p>
 
-</p>
 
-  
+  <details  style="color:#8080802e">
 
-<details  style="color:#8080802e">
+  <summary>Answer</summary>
 
-<summary>Answer</summary>
+  <br />
 
-<br />
+  Because they could finally stick together with no strings attached!
 
-Because they could finally stick together with no strings attached!
+  (😅)
 
-<br />
-
-<br />
-
-(😅)
-
-</details>
-
-  
+  </details>
 
 </div>
 
+
+<br />
 <br />
 
 <div  align="center">
@@ -82,7 +75,7 @@ Because they could finally stick together with no strings attached!
 <i>... featuring interactive physics and local minima convergence. The dynamic spheres are driven by a constant gravitational force and user input, converging towards a local minima.</i>
 
   
-  
+<br/>
 
 ### Built With
 
