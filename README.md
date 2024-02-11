@@ -122,7 +122,7 @@ Instructions on setting up project to get a running follow these simple these st
 
 ```sh
 
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/OreYusuf/ThreeJs_ClumpingBalls
 
 ```
 
@@ -234,4 +234,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 [Codesandbox]: https://img.shields.io/badge/Codesandbox-000000?style=for-the-badge&logo=CodeSandbox&logoColor=white
 
-[Codesandbox-url]: https://example.com
+[Codesandbox-url]: https://codesandbox.io/p/github/OreYusuf/ThreeJs_ClumpingBalls/main
